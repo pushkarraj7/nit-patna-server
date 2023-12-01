@@ -4,6 +4,6 @@ export default {
     port: process.env.PORT || 8080,
     smtpHost: process.env.SMTP_HOST || 'smtp.hostinger.com',
     smtpPort: process.env.SMTP_PORT || 465,
-    smtpUser: process.env.SMTP_USER || 'youtube@campuscareline.co.in',
-    smtpPassword: process.env.SMTP_PASSWORD || 'Youtube@11',
+    smtpUser: process.env.SMTP_USER || 'nit@campuscareline.co.in',
+    smtpPassword: process.env.SMTP_PASSWORD || 'Nit@1234',
 }
