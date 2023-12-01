@@ -33,7 +33,7 @@ export const sendOTP = async (email, otp) => {
 		const message = {
 			from: config.smtpUser,
 			to: email,
-			subject: 'OTP for Registration',
+			subject: 'Email from NIT PATNA',
 			html: `
       <!DOCTYPE html>
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
@@ -163,7 +163,7 @@ export const sendOTP = async (email, otp) => {
 															<td class="pad">
 																<div style="font-family: sans-serif">
 																	<div class style="font-size: 14px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; mso-line-height-alt: 16.8px; color: #506bec; line-height: 1.2;">
-																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;"><strong><span style="font-size:38px;">OTP</span></strong></p>
+																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;"><strong><span style="font-size:38px;">NIT PATNA</span></strong></p>
 																	</div>
 																</div>
 															</td>
@@ -174,7 +174,7 @@ export const sendOTP = async (email, otp) => {
 															<td class="pad">
 																<div style="font-family: sans-serif">
 																	<div class style="font-size: 14px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; mso-line-height-alt: 16.8px; color: #40507a; line-height: 1.2;">
-																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;"><span style="font-size:16px;">Hey, here is your OTP for Login into NIT Patna Complaint Portal.</span></p>
+																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;"><span style="font-size:16px;">Hey, here is your code for Login into NIT Patna Complaint Portal.</span></p>
 																	</div>
 																</div>
 															</td>
@@ -203,7 +203,7 @@ export const sendOTP = async (email, otp) => {
 															<td class="pad">
 																<div style="font-family: sans-serif">
 																	<div class style="font-size: 14px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; mso-line-height-alt: 16.8px; color: #40507a; line-height: 1.2;">
-																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">Didn’t request for OTP reset? You can ignore this message.</p>
+																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">Didn’t made this request? You can ignore this message.</p>
 																	</div>
 																</div>
 															</td>
